@@ -1,0 +1,40 @@
+.categories-list {
+    .category-item {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+
+        &:not(:last-child) {
+            margin-bottom: .5rem;
+        }
+
+        .category-heading {
+            display: flex;
+            align-items: center;
+            background: skyblue;
+            width: 100%;
+            padding: .5rem;
+            border-radius: 10px;
+        }
+
+        h4 {
+            margin: .25rem 0 0 .25rem;
+        }
+
+        .movies-list {
+            width: 100%;
+            flex: 1;
+            padding-left: 1rem;
+
+            .movie-item {
+                padding: .5rem 1rem;
+                background-color: rgb(180, 223, 240);
+                border-radius: 5px;
+                margin: .5rem 0;
+                border: none;
+
+            }
+        }
+    }
+
+}
